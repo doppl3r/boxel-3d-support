@@ -684,16 +684,14 @@
 <hr />
 <p>🚀 <strong>Usage Example:</strong><br />
 To listen for an event in Boxel 3D, use JavaScript like this:</p>
-<p>```javascript
-document.addEventListener("playerRespawn", (event) =&gt; {
+<h2 id="simple-respawn-mod">Simple respawn mod</h2>
+<pre><code>window.addEventListener("playerRespawn", (event) =&gt; {
     console.log("Player respawned:", event.detail.player);
-});</p>
-<h2 id="simple-outline-mod">Simple outline mod</h2>
-<pre><code>app.graphics.outlinePass.enabled = true
+});
 </code></pre>
 <details class="info inline">
 <summary>What does this do?</summary>
-<p>This mod outlines the player when they are behind an object. Provided by Doppler.</p>
+<p>This mod listens to when the player respawns. If the player respawns, the console logs "Player respawned"</p>
 </details>
 
 
