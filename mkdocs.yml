@@ -1,0 +1,39 @@
+site_name: Boxel 3D Modding Documentation
+nav:
+  - Introduction: index.md
+  - About: about.md
+site_url: https://mydomain.org/mysite
+repo_url: https://github.com/doppl3r/boxel-3d-support
+repo_name: Boxel 3D Support
+markdown_extensions: 
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - abbr
+plugins:
+  - search
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - header.autohide
+    - navigation.footer
+  palette:
+    scheme: slate
+    primary: pink
+    accent: cyan
+  logo: images/Icon1.png
+  font:
+    text: Comfortaa
+    code: Poppins
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/youtube 
+      link: https://www.youtube.com/@dopplercreative
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/wYTCk3jVua
