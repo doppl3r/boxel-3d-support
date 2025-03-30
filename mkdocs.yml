@@ -23,7 +23,7 @@ theme:
     - navigation.footer
   palette:
     scheme: slate
-    primary: pink
+    primary: blue 
     accent: cyan
   logo: images/Icon1.png
   font:
