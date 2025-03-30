@@ -11,6 +11,7 @@ This is the unofficial modding documentation for Boxel 3D.
 
 ## How to create a mod
 In order to create a mod, you need to learn Javascript.
+Test 1
 
 
 ## Commands
