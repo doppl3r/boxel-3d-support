@@ -9,16 +9,9 @@ Please create a new issue using the official Github page:
 
 ## How to Create a Mod
 
-In order to create a mod, you need to learn Javascript. More information coming soon.
-
+Information regarding how to create a mod is on the next page, "Getting Started".
 
 ## Commands
 
 * `Control + Shift + I (Windows)` - Open Inspect Element.
 * `Command + Option + I (Mac)` - Open Inspect Element.
-
-## Simple outline mod
-    app.graphics.outlinePass.enabled = true
-??? info inline "What does this do?"
-
-    This mod outlines the player when they are behind an object. Provided by Doppler.
