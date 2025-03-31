@@ -25,7 +25,7 @@ theme:
     scheme: slate
     primary: blue 
     accent: cyan
-  logo: images/Icon1.png
+  logo: images/logo-icon.png
   font:
     text: Comfortaa
     code: Poppins
