@@ -14,7 +14,7 @@
         <link rel="prev" href="..">
       
       
-        <link rel="next" href="../about/">
+        <link rel="next" href="../events/">
       
       
       <link rel="icon" href="../images/Icon2.png">
@@ -400,6 +400,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../about/" class="md-nav__link">
         
   
@@ -556,172 +577,6 @@
 </ol>
 <p>Once you're comfortable with these basics, you can start modifying game elements by injecting custom scripts or editing local copies of the game files.  </p>
 <p>🚀 <strong>Next Steps:</strong> Experiment with JavaScript commands in the console to manipulate game elements in real time!</p>
-<h1 id="event-list">Event List</h1>
-<p>This part of the page includes lists of the events in Boxel 3D.</p>
-<h2 id="game-events">Game Events</h2>
-<h3 id="1-general-events">1. General Events</h3>
-<table>
-<thead>
-<tr>
-<th>Event Name</th>
-<th>Detail Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>beforeSettingsClosed</code></td>
-<td><code>{}</code></td>
-<td>Triggered before settings are closed.</td>
-</tr>
-<tr>
-<td><code>closePopup</code></td>
-<td><code>{}</code></td>
-<td>Fires when a popup is closed.</td>
-</tr>
-<tr>
-<td><code>levelStart</code></td>
-<td><code>{ detail: Object }</code></td>
-<td>Called when a level starts.</td>
-</tr>
-<tr>
-<td><code>levelFinished</code></td>
-<td><code>{ detail: Object }</code></td>
-<td>Triggered when a level is completed.</td>
-</tr>
-<tr>
-<td><code>openLevelSelectorPopup</code></td>
-<td><code>{}</code></td>
-<td>Fires when the level selector popup opens.</td>
-</tr>
-<tr>
-<td><code>openPopup</code></td>
-<td><code>{ detail: Object }</code></td>
-<td>Called when a popup is opened.</td>
-</tr>
-<tr>
-<td><code>pageMounted</code></td>
-<td><code>{ detail: String }</code></td>
-<td>Fired when a page is mounted.</td>
-</tr>
-<tr>
-<td><code>popupClosed</code></td>
-<td><code>{}</code></td>
-<td>Triggered when a popup is closed.</td>
-</tr>
-<tr>
-<td><code>popupOpened</code></td>
-<td><code>{}</code></td>
-<td>Fires when a popup is opened.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="2-player-events">2. Player Events</h3>
-<table>
-<thead>
-<tr>
-<th>Event Name</th>
-<th>Detail Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>playerKill</code></td>
-<td><code>{ detail: { player: Object } }</code></td>
-<td>Triggered when a player is killed.</td>
-</tr>
-<tr>
-<td><code>playerRespawn</code></td>
-<td><code>{ detail: { player: Object } }</code></td>
-<td>Fires when a player respawns.</td>
-</tr>
-<tr>
-<td><code>playerRestart</code></td>
-<td><code>{ detail: { player: Object } }</code></td>
-<td>Called when a player restarts.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="3-ui-settings-events">3. UI &amp; Settings Events</h3>
-<table>
-<thead>
-<tr>
-<th>Event Name</th>
-<th>Detail Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>setCredit</code></td>
-<td><code>{ detail: { text: String } }</code></td>
-<td>Updates credit text.</td>
-</tr>
-<tr>
-<td><code>setMode</code></td>
-<td><code>{ detail: String }</code></td>
-<td>Sets the current game mode.</td>
-</tr>
-<tr>
-<td><code>setPage</code></td>
-<td><code>{ detail: String }</code></td>
-<td>Changes the current page.</td>
-</tr>
-<tr>
-<td><code>setSelectedObject</code></td>
-<td><code>{ detail: Object }</code></td>
-<td>Sets the selected object in the UI.</td>
-</tr>
-<tr>
-<td><code>setSelectedMode</code></td>
-<td><code>{ detail: String }</code></td>
-<td>Changes the selected mode.</td>
-</tr>
-<tr>
-<td><code>setTheme</code></td>
-<td><code>{ detail: String }</code></td>
-<td>Sets the game theme.</td>
-</tr>
-<tr>
-<td><code>settingsClosed</code></td>
-<td><code>{}</code></td>
-<td>Fires when the settings menu is closed.</td>
-</tr>
-<tr>
-<td><code>settingsOpened</code></td>
-<td><code>{}</code></td>
-<td>Fires when the settings menu is opened.</td>
-</tr>
-<tr>
-<td><code>themeSelected</code></td>
-<td><code>{ detail: Object }</code></td>
-<td>Triggered when a theme is selected.</td>
-</tr>
-<tr>
-<td><code>updateLoading</code></td>
-<td><code>{ detail: Object }</code></td>
-<td>Updates the loading state.</td>
-</tr>
-<tr>
-<td><code>updateStatsVisibility</code></td>
-<td><code>{}</code></td>
-<td>Updates the visibility of stats.</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p>🚀 <strong>Usage Example:</strong><br />
-To listen for an event in Boxel 3D, use JavaScript like this:</p>
-<h2 id="simple-respawn-mod">Simple respawn mod</h2>
-<pre><code>window.addEventListener("playerRespawn", (event) =&gt; {
-    console.log("Player respawned:", event.detail.player);
-});
-</code></pre>
-<details class="info inline">
-<summary>What does this do?</summary>
-<p>This mod listens to when the player respawns. If the player respawns, the console logs "Player respawned"</p>
-</details>
 
 
 
@@ -768,13 +623,13 @@ To listen for an event in Boxel 3D, use JavaScript like this:</p>
         
         
           
-          <a href="../about/" class="md-footer__link md-footer__link--next" aria-label="Next: About">
+          <a href="../events/" class="md-footer__link md-footer__link--next" aria-label="Next: Events">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                About
+                Events
               </div>
             </div>
             <div class="md-footer__button md-icon">
