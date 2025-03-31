@@ -48,10 +48,10 @@ When your MkDocs libraries are installed, you should be ready to serve your chan
 If you would like to make changes to the documentations, please use the following steps:
 
 1. Save your local files (ex: index.md)
-2. Pull the latest file changes: `git pull`
-2. Stage your files: `git add -A`
-3. Commit your files: `git commit -m "Update homepage text"` (Replace message with whatever you did)
-4. Push your files: `git push`
+2. Run `git pull` (this will download the latest files)
+2. Run `git add -A` (this stages your saved files)
+3. Run `git commit -m "Update homepage text"` (this adds a commit message before pushing code)
+4. Run `git push` (this pushes to the remote `main` branch)
 
 ## Publishing Changes
 
