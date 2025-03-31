@@ -1,6 +1,7 @@
 site_name: Boxel 3D Modding Documentation
 nav:
   - Introduction: index.md
+  - Getting Started: gettingstarted.md
   - About: about.md
 site_url: https://mydomain.org/mysite
 repo_url: https://github.com/doppl3r/boxel-3d-support
@@ -22,10 +23,24 @@ theme:
     - header.autohide
     - navigation.footer
   palette:
-    scheme: slate
-    primary: blue 
-    accent: cyan
-  logo: images/logo-icon.png
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+      primary: cyan 
+      accent: pink
+      name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+      name: Switch to light mode
+      primary: pink 
+      accent: cyan
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  favicon: https://doppl3r.github.io/boxel-3d-support/icons/Icon2.png
   font:
     text: Comfortaa
     code: Poppins
