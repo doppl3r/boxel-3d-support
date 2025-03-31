@@ -1,4 +1,4 @@
-# Boxel 3D Support
+![Boxel 3D Support](images/Boxel3DSupportBanner.png)
 
 This is the official modding documentation for Boxel 3D.
 

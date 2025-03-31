@@ -1,16 +1,20 @@
 site_name: Boxel 3D Modding Documentation
 nav:
-  - Introduction: index.md
-  - Getting Started: gettingstarted.md
-  - Events: events.md
-  - About: about.md
-site_url: https://mydomain.org/mysite
+  - Introduction: 
+      Welcome!: index.md
+  - Getting Started:
+      First Steps: FirstSteps.md
+      Events: events.md
+  - About: 
+      About: about.md
+site_url: https://doppl3r.github.io/boxel-3d-support/
 repo_url: https://github.com/doppl3r/boxel-3d-support
 repo_name: Boxel 3D Support
-markdown_extensions: 
+markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.blocks.caption
   - pymdownx.snippets
   - attr_list
   - md_in_html
@@ -23,21 +27,20 @@ theme:
   features:
     - header.autohide
     - navigation.footer
+    - navigation.tabs
   palette:
     - scheme: default
       toggle:
-        icon: material/brightness-7 
-      primary: cyan 
+        icon: material/brightness-7
+      primary: indigo
       accent: pink
       name: Switch to dark mode
-
-    # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
       name: Switch to light mode
-      primary: pink 
-      accent: cyan
+      primary: pink
+      accent: indigo
   logo: images/Icon2.png
   icon:
     previous: fontawesome/solid/angle-left
@@ -50,7 +53,10 @@ extra_css:
   - stylesheets/extra.css
 extra:
   social:
-    - icon: fontawesome/brands/youtube 
+    - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@dopplercreative
-    - icon: fontawesome/brands/discord 
+    - icon: fontawesome/brands/discord
       link: https://discord.gg/wYTCk3jVua
+
+# Enable use_directory_urls
+use_directory_urls: true
