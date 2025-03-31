@@ -40,7 +40,7 @@ This part of the page includes lists of the events in Boxel 3D.
 
 ## Game Events
 
-### General Events
+### 1. General Events
 | Event Name             | Detail Type  | Description |
 |------------------------|-------------|-------------|
 | `beforeSettingsClosed` | `{}`        | Triggered before settings are closed. |
@@ -53,14 +53,14 @@ This part of the page includes lists of the events in Boxel 3D.
 | `popupClosed`        | `{}`        | Triggered when a popup is closed. |
 | `popupOpened`        | `{}`        | Fires when a popup is opened. |
 
-### Player Events
+### 2. Player Events
 | Event Name             | Detail Type  | Description |
 |------------------------|-------------|-------------|
 | `playerKill`         | `{ detail: { player: Object } }` | Triggered when a player is killed. |
 | `playerRespawn`      | `{ detail: { player: Object } }` | Fires when a player respawns. |
 | `playerRestart`      | `{ detail: { player: Object } }` | Called when a player restarts. |
 
-### UI & Settings Events
+### 3. UI & Settings Events
 | Event Name             | Detail Type  | Description |
 |------------------------|-------------|-------------|
 | `setCredit`          | `{ detail: { text: String } }` | Updates credit text. |
