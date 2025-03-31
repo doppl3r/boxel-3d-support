@@ -8,4 +8,8 @@
          <loc>https://mydomain.org/mysite/about/</loc>
          <lastmod>2025-03-31</lastmod>
     </url>
+    <url>
+         <loc>https://mydomain.org/mysite/gettingstarted/</loc>
+         <lastmod>2025-03-31</lastmod>
+    </url>
 </urlset>
