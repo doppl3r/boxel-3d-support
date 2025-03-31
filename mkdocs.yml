@@ -2,6 +2,7 @@ site_name: Boxel 3D Modding Documentation
 nav:
   - Introduction: index.md
   - Getting Started: gettingstarted.md
+  - Events: events.md
   - About: about.md
 site_url: https://mydomain.org/mysite
 repo_url: https://github.com/doppl3r/boxel-3d-support
