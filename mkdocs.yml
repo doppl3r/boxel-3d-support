@@ -38,6 +38,7 @@ theme:
       primary: pink 
       accent: cyan
   icon:
+    logo: https://doppl3r.github.io/boxel-3d-support/icons/Icon2.png
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
   favicon: https://doppl3r.github.io/boxel-3d-support/icons/Icon2.png
