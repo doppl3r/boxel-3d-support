@@ -1,17 +1,15 @@
-# Introduction
+# Boxel 3D Support
 
-This is the unofficial modding documentation for Boxel 3D.
+This is the official modding documentation for Boxel 3D.
 
-??? warning "Notice"
+## How to Submit a Bug
 
-    There may be information in this documentation that is not 100% accurate. I do not do much modding, so if you want anything to be added or removed, let me know over on the Boxel 3D discord server.
-    !!! warning "Notice 2"
+Please create a new issue using the official Github page:
+[https://github.com/doppl3r/boxel-3d-support/issues](https://github.com/doppl3r/boxel-3d-support/issues)
 
-        I may not update this that much, I have things to do, so if I don't update it constantly/consistently it is not my fault.
+## How to Create a Mod
 
-## How to create a mod
-In order to create a mod, you need to learn Javascript.
-Test 1
+In order to create a mod, you need to learn Javascript. More information coming soon.
 
 
 ## Commands
