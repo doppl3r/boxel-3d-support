@@ -37,11 +37,11 @@ theme:
       name: Switch to light mode
       primary: pink 
       accent: cyan
+  logo: images/Icon2.png
   icon:
-    logo: https://doppl3r.github.io/boxel-3d-support/icons/Icon2.png
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
-  favicon: https://doppl3r.github.io/boxel-3d-support/icons/Icon2.png
+  favicon: images/Icon2.png
   font:
     text: Comfortaa
     code: Poppins
