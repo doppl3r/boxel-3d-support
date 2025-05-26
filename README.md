@@ -43,7 +43,7 @@ After installing Python, run the following commands to install the `pip` librari
 When your MkDocs libraries are installed, you should be ready to serve your changes over a local IP address using the following instructions:
 
 1. Run `mkdocs serve`
-2. Copy/paste the IP address into your browser (http://127.0.0.1:8000/mysite/)
+2. Copy/paste the IP address into your browser (http://127.0.0.1:8000/boxel-3d-support/)
 
 If you would like to make changes to the documentations, please use the following steps:
 

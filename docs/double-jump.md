@@ -1,8 +1,10 @@
 # Double Jump
 The double jump allows for jumping in mid air to get extra distance and/or height. It is most often found on platformer levels or sections of levels, but it can sometimes be used on cube levels. It is not possible with spider mode.
+
 ## Explanation
 The player gets the ability to jump when they go from not colliding with a hitbox to colliding with it. If you jump and then touch a block, you will regain your jump, allowing you to jump again mid-air. A simple example is when the player is on a flat surface, with a block protruding from it. The player jumps, touches the block, and regains their jump in mid-air.
 ## Usage
+
 Here is a partial list of uses of this mechanic in levels:
 - Long Boi: Double jumping off one of the small blocks can be used for speedrunning
 - Kargoh's World: Double jumping off on of the pillars for a shortcut
@@ -16,8 +18,10 @@ Here is a partial list of uses of this mechanic in levels:
 - Wallclimb Ascension: Double jumping off of a textbox can be used for a shortcut
 - Spider #1: Double jumping at the end can be used to save time
 - Double Jump Hell: Double jumping is the main theme of the level
+
 ## History
 It is unknown who discovered jumping, or when. Until platformer mode, it was used only for speedrunning. After platformer mode was added into the game, Charlieee1 popularized double jumping with Dancing on Nothing. Nowadays, double jumping is used for speedrunning, skips, and occasionally as a required mechanic for a level.
+
 ## Variants
 Here is a non-exhaustive list of double jump variants:
 - Simple cube/platformer double jump with momentum (Example use case: textbox skip in Wallclimb Ascension)
@@ -33,8 +37,10 @@ Here is a non-exhaustive list of double jump variants:
 - Double jump through reset block (Example use case: reset block double jump in Double Jump Hell)
 - Double jump off of a self-bouncing moving bounce block (Example use case: Kackiest Kacky #-3)
 - Flight with moving block (Example use case: theoretically possible TAS strat)
+
 ## Fun Facts
 Double jumping is the most well known non-trivial platformer mechanic.
+
 ## Related Mechanics
 Here is a list of mechanics related to double jumping:
 - [Ceiling jump](ceiling-jump.html)

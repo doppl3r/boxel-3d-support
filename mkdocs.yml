@@ -1,12 +1,12 @@
 site_name: Boxel 3D Modding Documentation
 nav:
-  - Introduction: 
-      Welcome!: index.md
-  - Getting Started:
-      First Steps: FirstSteps.md
-      Events: events.md
-  - About: 
-      About: about.md
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Javascript Events: events.md
+  - Wiki:
+    - Double Jump: double-jump.md
+    - Level Types: level-types.md
+  - About: about.md
 site_url: https://doppl3r.github.io/boxel-3d-support/
 repo_url: https://github.com/doppl3r/boxel-3d-support
 repo_name: Boxel 3D Support
