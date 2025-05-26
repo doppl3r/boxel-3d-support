@@ -2,18 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://doppl3r.github.io/boxel-3d-support/</loc>
-         <lastmod>2025-03-31</lastmod>
-    </url>
-    <url>
-         <loc>https://doppl3r.github.io/boxel-3d-support/FirstSteps/</loc>
-         <lastmod>2025-03-31</lastmod>
+         <lastmod>2025-05-26</lastmod>
     </url>
     <url>
          <loc>https://doppl3r.github.io/boxel-3d-support/about/</loc>
-         <lastmod>2025-03-31</lastmod>
+         <lastmod>2025-05-26</lastmod>
+    </url>
+    <url>
+         <loc>https://doppl3r.github.io/boxel-3d-support/double-jump/</loc>
+         <lastmod>2025-05-26</lastmod>
     </url>
     <url>
          <loc>https://doppl3r.github.io/boxel-3d-support/events/</loc>
-         <lastmod>2025-03-31</lastmod>
+         <lastmod>2025-05-26</lastmod>
+    </url>
+    <url>
+         <loc>https://doppl3r.github.io/boxel-3d-support/getting-started/</loc>
+         <lastmod>2025-05-26</lastmod>
+    </url>
+    <url>
+         <loc>https://doppl3r.github.io/boxel-3d-support/level-types/</loc>
+         <lastmod>2025-05-26</lastmod>
     </url>
 </urlset>
