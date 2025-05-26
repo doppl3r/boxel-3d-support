@@ -1,0 +1,83 @@
+# Types of Boxel 3d Levels
+- Basic cube (1-1)
+    - The oldest style of level building
+    - Very competitive
+    - Very difficult to build right
+- Speed cube (Faster Than a Bullet)
+    - Uncommon style of level
+    - Fun to play
+    - Tedious to create
+- Precision spider (Damp Caves)
+    - Frequently requires lots of clicks
+    - Not always in a straight line, but moving around obstacles and through tight gaps
+- Tech spider (Second part of precision spider)
+    - Requires expert maintaining of speed at the highest level
+    - Not very fast
+- Speed spider (Spider cave)
+    - Very fast spider level
+    - Build up speed over time as the level goes on
+    - Maintain speed for faster times
+- GD Style (Futuristic light)
+    - Built to a geometry dash player's skillset
+    - Lots of very precise clicks
+    - Usually not much room for speedrunning
+    - Usually built in one line
+- Kacky (Kackiest Kacky #-3)
+    - Mental challenge
+    - Soul crushing
+    - Shows off unique game mechanic/glitch
+    - Very difficult
+- Puzzle (Puzzle #6: Match-up)
+    - The gameplay lies in finding out how to beat the level
+    - Usually does not require much mechanical skill
+- Precision platformer (Only Up)
+    - Requires precise platformer movement, usually while travelling upwards
+    - Levels are very likely to be infuriating or annoying due to slippery platformer physics
+- Basic platformer (Platforming Fun)
+    - Just a regular platformer level
+- Timed platformer (Boxel Nomad)
+    - Requires platforming through/with moving/bouncing blocks
+- Double jump platformer (Double Jump Hell)
+    - Frequently has not that many blocks
+    - Requires using double jumping
+    - Very hard for new players to get into
+- Trial (Mountain Climb)
+    - Very long map
+    - Showcases a lot of different gameplay
+    - Has checkpoints to separate different sections
+    - Very uncommon map style
+- RNG (The Bonce House)
+    - Gameplay relies of the non-deterministic nature of boxel 3d and/or a chaotic system mixed with inaccurate human inputs
+    - Very controversial
+    - Type of meme level
+- Meme (The Bonce House)
+    - A level not meant to be fun to play, or high quality
+    - Meant for laughs and giggles
+- Gimmick (Tennis)
+    - A level focused on neat little strange, creative things in game the level creator found
+    - Not meant to be super high quality
+    - Doesn't have to be difficult
+    - These levels are very common as players experiment and innovate constantly
+- Story (World Hunger)
+    - A level focused on story rather than gameplay
+    - Story typically conveyed through text boxes
+- Highly decorated (Prelude)
+    - A level that focuses heavily on decoration
+- Auto (auto)
+    - The level completes itself without player intervention
+    - Hard to make cool levels of this type because of non-deterministic physics
+- RPG (INOCH)
+    - Gameplay mixed with story
+    - No completed level of this type yet
+- Modded (Dash platforming)
+    - A level that requires a mod (or multiple)
+    - Going beyond the vanilla game
+- Collab (Creation roulette)
+    - A level built by multiple people
+- In game level (!\_\_kf)
+    - The elite levels (some are actually pretty garbage)
+    - Considered an honour to have a level of this type
+    - Highly sought after but not in the control of the level builder (any more, now that the level voting system has been implemented)
+- Hybrid (Strawberry Jam)
+    - A level that fits into multiple of the above categories
+    - Ie. Strawberry Jam is basic cube, speed cube, basic platforming, decorated, and in game
